@@ -8,15 +8,6 @@ html {
   --work-background: linear-gradient(to left top, #c3d4d8 10%, #ecece6 50%);
 }
 
-html[data-theme="dark"] {
-  background: var(--lightBg);
-  --lightBg: #051c2c;
-  --lightBanner: linear-gradient(to top lef, #00917a, #003c4b);
-  --lightColor: #fff;
-  --light-bg-skill: #494949;
-  --work-background: linear-gradient(to left top, #232526, #414345);
-}
-
 .darkmode {
   position: absolute;
   top: 30%;

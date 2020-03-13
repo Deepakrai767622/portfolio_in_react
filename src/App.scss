@@ -506,3 +506,43 @@ main {
 // =============== Projects Import ==================//
 
 @import "scss/project";
+
+// =============== About ==================//
+.about-inner {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 70px auto !important;
+
+  div {
+    flex: 1 1 25rem;
+
+    .about-img {
+      width: 30%;
+      img {
+        width: 250px;
+      }
+    }
+  }
+
+  .about-list {
+    div {
+      display: flex;
+
+      span {
+        width: 300px;
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: regular;
+      }
+    }
+  }
+}
+
+span {
+  font-family: $roboto;
+  font-weight: 300;
+  color: var(--lightColor);
+}
